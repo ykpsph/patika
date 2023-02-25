@@ -1,6 +1,6 @@
 public class MatrisTranspozu {
     public static void main(String[] args) {
-        
+
         int[][] arr = {{1,2,3},{4,5,6}}; //[2][3]
         int[][] temp = new int[arr[0].length][arr.length];
 
@@ -10,9 +10,15 @@ public class MatrisTranspozu {
             }
         }
 
-        for(int[] row : temp){
-            for(int column : row){
-                System.out.print(column+" ");
+//        for(int[] row : temp){
+//            for(int column : row){
+//                System.out.print(column+" ");
+//            }
+//            System.out.println();
+//        }
+        for(int i = 0; i < temp.length; i++){
+            for(int k = 0; k < temp[i].length; k++){
+                System.out.print(temp[i][k] + " ");
             }
             System.out.println();
         }
