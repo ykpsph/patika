@@ -1,23 +1,23 @@
 public class challenge {
     public static void main(String[] args) {
-        int a = 4;
-        System.out.println((a >> 1) + (a << 2));
-        System.out.println("a>>1"+ (a >> 1));
-        System.out.println("a<<2"+(a<<2));
-
-        int x = 0;
-        int y = -2;
-        System.out.println(Math.min(x,y));
-
-        String str = "hello world";
-        String[] words = str.split("\\s");
-        String capitalizedWord = "";
-        for(String word : words){
-            String first = word.substring(0,1);
-            String afterFirst = word.substring(1);
-            capitalizedWord += first.toUpperCase() + afterFirst+" " ;
-        }
-        System.out.println(capitalizedWord);
+//        int a = 4;
+//        System.out.println((a >> 1) + (a << 2));
+//        System.out.println("a>>1"+ (a >> 1));
+//        System.out.println("a<<2"+(a<<2));
+//
+//        int x = 0;
+//        int y = -2;
+//        System.out.println(Math.min(x,y));
+//
+//        String str = "hello world";
+//        String[] words = str.split("\\s");
+//        String capitalizedWord = "";
+//        for(String word : words){
+//            String first = word.substring(0,1);
+//            String afterFirst = word.substring(1);
+//            capitalizedWord += first.toUpperCase() + afterFirst+" " ;
+//        }
+//        System.out.println(capitalizedWord);
 
 
         String message = "hello world";
